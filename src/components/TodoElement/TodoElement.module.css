@@ -1,0 +1,34 @@
+.todo-element {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-400, #333);
+    background: var(--Gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    padding: 16px;
+}
+
+.todo-element-body {
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: none;
+    border: none;
+    gap: 16px;
+}
+
+.todo-element-footer {
+    background: none;
+    border: none;
+}
+
+.throught {
+    text-decoration: line-through;
+}
+
+.todo-element-footer__trash {
+    color: #808080;
+}
+.todo-element-footer__trash:hover {
+    color: #a5a5a5;
+}
