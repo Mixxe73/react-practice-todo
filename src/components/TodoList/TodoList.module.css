@@ -11,12 +11,12 @@
     border-radius: 8px;
     border: 1px solid #0D0D0D;
     background: #262626;
-    color: white;
+    color: #ffffff;
     width: 100%;
 }
 
 .todo-list-add__button {
-    color: white;
+    color: #ffffff;
     border: none;
     background: #1E6F9F;
     padding: 16px;

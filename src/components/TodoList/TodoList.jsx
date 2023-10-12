@@ -3,10 +3,8 @@ import styles from './TodoList.module.css'
 import TodoElement from '../TodoElement/TodoElement'
 import { IconClipboardText } from '@tabler/icons-react'
 
-const data = []
-
 const TodoList = () => {
-  const [todos, setTodos] = useState(data)
+  const [todos, setTodos] = useState([])
   const [titleInput, setTitleInput] = useState('')
 
   const addTodo = (title) => {
